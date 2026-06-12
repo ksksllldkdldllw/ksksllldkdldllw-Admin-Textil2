@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f7fbff"/>
+  <text x="600" y="60" text-anchor="middle" font-family="Segoe UI, Arial" font-size="28" font-weight="700" fill="#0f3d66">Diagrama Entidad-Relación - AdminTextil</text>
+
+  <rect x="80" y="140" width="180" height="120" rx="10" fill="#ffffff" stroke="#2b7fff" stroke-width="2"/>
+  <text x="170" y="175" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" font-weight="700" fill="#0f3d66">Usuarios</text>
+  <text x="170" y="205" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#3b4a5a">Id • Nombre • Rol</text>
+
+  <rect x="340" y="140" width="180" height="120" rx="10" fill="#ffffff" stroke="#2b7fff" stroke-width="2"/>
+  <text x="430" y="175" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" font-weight="700" fill="#0f3d66">Clientes</text>
+  <text x="430" y="205" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#3b4a5a">Cedula • Nombre</text>
+
+  <rect x="600" y="140" width="180" height="120" rx="10" fill="#ffffff" stroke="#2b7fff" stroke-width="2"/>
+  <text x="690" y="175" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" font-weight="700" fill="#0f3d66">Proveedores</text>
+  <text x="690" y="205" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#3b4a5a">Codigo • Proveedor</text>
+
+  <rect x="860" y="140" width="220" height="140" rx="10" fill="#ffffff" stroke="#2b7fff" stroke-width="2"/>
+  <text x="970" y="175" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" font-weight="700" fill="#0f3d66">Productos</text>
+  <text x="970" y="205" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#3b4a5a">Codigo • Producto • Marca</text>
+  <text x="970" y="225" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#3b4a5a">Talla • Color • Precio • Stock</text>
+
+  <rect x="260" y="360" width="220" height="140" rx="10" fill="#ffffff" stroke="#2b7fff" stroke-width="2"/>
+  <text x="370" y="395" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" font-weight="700" fill="#0f3d66">gestionar_ventas</text>
+  <text x="370" y="425" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#3b4a5a">Id • Cliente • Fecha</text>
+  <text x="370" y="445" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#3b4a5a">Total • Estado • Vendedor</text>
+
+  <rect x="560" y="360" width="220" height="140" rx="10" fill="#ffffff" stroke="#2b7fff" stroke-width="2"/>
+  <text x="670" y="395" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" font-weight="700" fill="#0f3d66">Detalle_venta</text>
+  <text x="670" y="425" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#3b4a5a">Id • Venta_Id • Codigo</text>
+  <text x="670" y="445" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#3b4a5a">Cantidad • Precio • Total</text>
+
+  <rect x="860" y="360" width="220" height="140" rx="10" fill="#ffffff" stroke="#2b7fff" stroke-width="2"/>
+  <text x="970" y="395" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" font-weight="700" fill="#0f3d66">GestionarCompra</text>
+  <text x="970" y="425" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#3b4a5a">Id • Proveedor • Fecha</text>
+  <text x="970" y="445" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#3b4a5a">Total • Estado</text>
+
+  <rect x="620" y="580" width="220" height="140" rx="10" fill="#ffffff" stroke="#2b7fff" stroke-width="2"/>
+  <text x="730" y="615" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" font-weight="700" fill="#0f3d66">Detalle_Compra</text>
+  <text x="730" y="645" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#3b4a5a">Id • Compra_Id • Codigo</text>
+  <text x="730" y="665" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#3b4a5a">Cantidad • Precio • Total</text>
+
+  <line x1="430" y1="260" x2="370" y2="360" stroke="#1d4ed8" stroke-width="3"/>
+  <line x1="670" y1="260" x2="670" y2="360" stroke="#1d4ed8" stroke-width="3"/>
+  <line x1="970" y1="280" x2="670" y2="360" stroke="#1d4ed8" stroke-width="3"/>
+  <line x1="970" y1="500" x2="730" y2="580" stroke="#1d4ed8" stroke-width="3"/>
+  <line x1="970" y1="500" x2="970" y2="360" stroke="#1d4ed8" stroke-width="3"/>
+
+  <circle cx="430" cy="310" r="6" fill="#1d4ed8"/>
+  <circle cx="670" cy="310" r="6" fill="#1d4ed8"/>
+  <circle cx="970" cy="320" r="6" fill="#1d4ed8"/>
+  <circle cx="850" cy="540" r="6" fill="#1d4ed8"/>
+
+  <text x="600" y="740" text-anchor="middle" font-family="Segoe UI, Arial" font-size="16" fill="#4b5563">Relaciones principales: ventas, compras, productos y clientes</text>
+</svg>
