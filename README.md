@@ -4,7 +4,7 @@
 Tecnología de Desarrollos de Sistemas Informáticos  
 📅 I Semestre 2026  
 👨‍🏫 Profesor: Mag. Carlos Adolfo Beltrán Castro  
-👨‍💻 Estudiante: Cristian Andres Lizarazo Ovalle — CC: 1005110314
+👨‍💻 Estudiante: Cristian Andres Lizarazo Ovalle
 
 ---
 
@@ -177,6 +177,5 @@ java -jar target/AdminTextil-1.0-SNAPSHOT.jar
 
 ## 👤 Autor
 
-**Cristian Andres Lizarazo Ovalle**  
-Cédula: 1005110314  
+**Cristian Andres Lizarazo Ovalle**
 I Semestre 2026 — Taller de Panel Administrativo
